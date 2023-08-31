@@ -1,0 +1,54 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_BRANCH": {
+      "required": true
+    },
+    "SECRET_KEY": {
+      "required": true
+    },
+    "WEATHER_KEY": {
+      "required": true
+    },
+    "POSTGRESQL_PASSWORD": {
+      "required": true
+    },
+    "RAPIDAPI_KEY": {
+      "required": true
+    },
+    "REACT_APP_API_URL": {
+      "required": true
+    },
+    "EMAIL_HOST_PASSWORD": {
+      "required": true
+    },
+    "MAPS_KEY": {
+      "required": true
+    },
+    "ATTRACTIONS_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "fast-travel",
+  "scripts": {
+  },
+  "stack": "heroku-20"
+}
