@@ -11,4 +11,4 @@ Images of UI on the platform
 Team Members: Akash Gajendra, Prajwal Iyer 
 
 The original repo can be found here:
-https://github.tamu.edu/prajwaliyer/fast-travel
+https://github.com/prajwaliyer/fast-travel
